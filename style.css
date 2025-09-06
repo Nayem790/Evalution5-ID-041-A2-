@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+  font-family: "Italianno", cursive;
+  font-weight: 600;
+  font-style: normal;
+    font-size: 40px;
+    /* margin-left: 300px; */
+}
+
+.container{
+    /* text-align: center; */
+    background: rgb(149, 245, 245);
+    height: 200px;
+    width: 300px;
+    /* margin-left: 600px;
+    margin-top: 0px; */
+    position: relative;
+    border-radius: 10px;
+}
+.circle{
+    position:absolute;
+    top: -20px;
+    right: 40px;
+}
+.c1{
+    background:pink ;
+    width: 40px;
+    height: 40px;
+    
+}
+.c2{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    background: cornflowerblue;
+    width: 35px;
+    height: 35px;
+    transform: translatex(-20px);
+    
+}
+.dot{
+    /* width: 40px;
+    height: 40px; */
+    border-radius: 50%;
+    margin: 5px;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(151, 216, 234);
+    margin-left: 0;
+    margin-top: 50px;
+
+}
+main{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 150px;
+   
+}
+.profile{
+    position: absolute;
+    bottom: -50px;
+    right: -10px;
+    border: 5px solid teal;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+footer{
+    background: linear-gradient(to right, #f4f7f4, #a0d8a06c);
+    margin-top: 50px;
+    /* text-align: center; */
+    padding: 15px 0;
+    margin-left: 100px;
+    margin-right: 300px;
+    border-radius: 5px;
+    display: flex;
+    gap: 50px;
+}
+.fa-square-facebook {
+    color: blue;
+    font-size: 30px;
+    margin: 0 10px;  
+}
+.fa-youtube{
+    color: red;
+    font-size: 30px;
+    margin: 0 10px;
+}
+.cpy{
+      font-family: "Italianno", cursive;
+  font-weight: 60;
+  /* font-style: normal; */
+    font-size: 20px;
+    color: grey;
+}
